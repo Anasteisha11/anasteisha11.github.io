@@ -4,7 +4,7 @@ module.exports = {
   siteTitleAlt: "Test blog whith React.js", // Alternative site title for SEO.
   siteLogo: "/logos/logo.png", // Logo used for SEO and manifest.
   siteUrl: "https://anasteisha11.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/public", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Test blog whith React.js.", // Website description used for RSS feeds/meta description tag.
   siteRss: "", // Path to the RSS file.
