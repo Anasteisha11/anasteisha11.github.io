@@ -4,13 +4,13 @@ module.exports = {
   siteTitleAlt: "Test blog whith React.js", // Alternative site title for SEO.
   siteLogo: "/logos/logo.png", // Logo used for SEO and manifest.
   siteUrl: "https://anasteisha11.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "/public", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Test blog whith React.js.", // Website description used for RSS feeds/meta description tag.
   siteRss: "", // Path to the RSS file.
   siteFBAppID: "100002201574009", // FB Application ID for using app insights
   siteGATrackingID: "", // Tracking code ID for google analytics.
-  disqusShortname: "big-cat", // Disqus shortname.
+  disqusShortname: "https-anasteisha11-github-io", // Disqus shortname.
   postDefaultCategoryID: "Living", // Default category for posts.
   userName: "anastasiaparakhina", // Username to display in the author segment.
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
@@ -22,7 +22,7 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://anasteisha11.github.io/blog",
+      url: "https://anasteisha11.github.io/",
       iconClassName: "fa fa-github"
     },
     {
